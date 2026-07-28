@@ -1,33 +1,35 @@
-# 📊 HUL Financial Analysis & Valuation Dashboard
+# 📊 HUL Financial Analysis, Financial Ratio Analysis & Valuation Dashboard
 
 ## Overview
 
 This project presents a comprehensive **Financial Analysis and Valuation of Hindustan Unilever Limited (HUL)** using **Microsoft Excel** and **Power BI**.
 
-The project covers financial statement analysis, forecasting, Discounted Cash Flow (DCF) valuation, sensitivity analysis, relative valuation, and an interactive Power BI dashboard built to visualize key financial insights.
+The project demonstrates an end-to-end financial modelling workflow, including historical financial statement analysis, financial ratio analysis, forecasting, company valuation, and interactive business intelligence dashboards. The Excel model was used to perform financial modelling and valuation, while Power BI was used to build interactive dashboards for visualizing key financial insights.
 
 ---
 
 # 🎯 Project Objectives
 
-- Analyze HUL's historical financial performance
-- Build an integrated financial model in Microsoft Excel
-- Forecast future financial statements
-- Estimate intrinsic value using Discounted Cash Flow (DCF)
-- Perform Sensitivity Analysis
-- Conduct Relative Valuation using comparable company multiples
-- Design an interactive Power BI dashboard
+- Analyze HUL's historical financial statements.
+- Evaluate financial performance using key financial ratios.
+- Develop an integrated financial model in Microsoft Excel.
+- Forecast future financial statements.
+- Estimate intrinsic value using Discounted Cash Flow (DCF) valuation.
+- Perform Sensitivity Analysis on valuation assumptions.
+- Conduct Relative Valuation using comparable company multiples.
+- Build an interactive Power BI dashboard for financial reporting and visualization.
 
 ---
 
 # ⭐ Key Highlights
 
-- Built a fully integrated financial model using publicly available financial statements.
-- Forecasted future financial performance using historical trends.
-- Performed Discounted Cash Flow (DCF) valuation.
-- Conducted Sensitivity Analysis.
-- Performed Relative Valuation using market multiples.
-- Designed an interactive Power BI dashboard for financial analysis.
+- Analyzed historical Income Statement, Balance Sheet, and Cash Flow Statement.
+- Performed profitability, liquidity, leverage, efficiency, and market valuation ratio analysis.
+- Built an integrated financial forecasting model.
+- Estimated intrinsic value using Discounted Cash Flow (DCF).
+- Conducted Sensitivity Analysis using different WACC and Terminal Growth assumptions.
+- Performed Relative Valuation using comparable company multiples.
+- Designed an interactive Power BI dashboard with KPI visualization and business insights.
 
 ---
 
@@ -38,6 +40,8 @@ The project covers financial statement analysis, forecasting, Discounted Cash Fl
 - Power Query
 - DAX
 - Financial Modelling
+- Financial Statement Analysis
+- Financial Ratio Analysis
 - Discounted Cash Flow (DCF)
 - Sensitivity Analysis
 - Relative Valuation
@@ -52,7 +56,7 @@ The project covers financial statement analysis, forecasting, Discounted Cash Fl
 <img src="Dashboard Screenshots/Executive Summary.png" width="90%">
 </p>
 
-Provides a high-level overview of HUL's financial performance through KPI cards, trend analysis, and interactive slicers.
+Provides a consolidated overview of HUL's financial performance through KPI cards, trend analysis, valuation summary, and interactive slicers.
 
 ---
 
@@ -62,7 +66,7 @@ Provides a high-level overview of HUL's financial performance through KPI cards,
 <img src="Dashboard Screenshots/Financial Performance.png" width="90%">
 </p>
 
-Analyzes Revenue, EBITDA, EPS, and key financial trends across historical and forecast periods.
+Analyzes Revenue, EBITDA, Net Profit, EPS, and historical versus forecast financial performance.
 
 ---
 
@@ -72,27 +76,35 @@ Analyzes Revenue, EBITDA, EPS, and key financial trends across historical and fo
 <img src="Dashboard Screenshots/Financial Ratios.png" width="90%">
 </p>
 
-Evaluates profitability, liquidity, leverage, and efficiency ratios.
+Analyzes key financial ratios including:
+
+- Profitability Ratios
+- Liquidity Ratios
+- Leverage Ratios
+- Efficiency Ratios
+- Market Valuation Ratios
+
+to evaluate HUL's financial health and operating performance.
 
 ---
 
-## DCF Valuation Dashboard
+## DCF Valuation
 
 <p align="center">
 <img src="Dashboard Screenshots/DCF Valuation.png" width="90%">
 </p>
 
-Interactive visualization of intrinsic valuation and key DCF assumptions.
+Visualizes intrinsic valuation using projected Free Cash Flows, Terminal Value, Enterprise Value, Equity Value, and WACC assumptions.
 
 ---
 
-## Relative Valuation Dashboard
+## Relative Valuation
 
 <p align="center">
 <img src="Dashboard Screenshots/Relative Valuation.png" width="90%">
 </p>
 
-Compares valuation multiples across peer companies.
+Compares HUL with peer companies using valuation multiples such as P/E, EV/EBITDA, EV/Sales, and Price-to-Book to estimate fair value.
 
 ---
 
@@ -150,7 +162,7 @@ Compares valuation multiples across peer companies.
 </tr>
 </table>
 
-Historical Income Statement, Balance Sheet, and Cash Flow Statement used as the foundation of the financial model.
+Historical financial statements used as the foundation for forecasting and valuation.
 
 ---
 
@@ -162,7 +174,7 @@ Historical Income Statement, Balance Sheet, and Cash Flow Statement used as the 
 
 </p>
 
-Forecasted financial statements developed using historical trends and financial assumptions.
+Forecasted Income Statement, Balance Sheet, and Cash Flow Statement developed using historical trends and financial assumptions.
 
 ---
 
@@ -190,7 +202,7 @@ Forecasted financial statements developed using historical trends and financial 
 </tr>
 </table>
 
-DCF valuation estimating Enterprise Value and Intrinsic Share Value using projected cash flows, WACC, and sensitivity analysis.
+Estimated Enterprise Value, Equity Value, and Intrinsic Share Value using projected Free Cash Flows and WACC. Sensitivity Analysis evaluates valuation under different WACC and Terminal Growth Rate assumptions.
 
 ---
 
@@ -201,7 +213,7 @@ DCF valuation estimating Enterprise Value and Intrinsic Share Value using projec
 
 <td align="center" width="50%">
 
-### Comparable Companies
+### Comparable Company Analysis
 
 <img src="Excel Screenshots/Relative Valuation 1.png" width="100%">
 
@@ -218,7 +230,7 @@ DCF valuation estimating Enterprise Value and Intrinsic Share Value using projec
 </tr>
 </table>
 
-Relative valuation performed using comparable company multiples.
+Relative valuation performed using comparable company multiples to benchmark HUL against industry peers.
 
 ---
 
@@ -232,6 +244,9 @@ Data Cleaning & Preparation
           │
           ▼
 Historical Financial Statement Analysis
+          │
+          ▼
+Financial Ratio Analysis
           │
           ▼
 Financial Forecasting
@@ -257,14 +272,16 @@ Business Insights
 # 💼 Skills Demonstrated
 
 - Financial Statement Analysis
+- Financial Ratio Analysis
 - Financial Modelling
 - Financial Forecasting
 - Discounted Cash Flow (DCF)
-- Sensitivity Analysis
 - Relative Valuation
+- Sensitivity Analysis
+- Company Valuation
 - Corporate Finance
 - WACC Estimation
-- Power BI
+- Power BI Dashboard Development
 - Power Query
 - DAX
 - Data Visualization
@@ -274,8 +291,8 @@ Business Insights
 
 # 📂 Repository Contents
 
-- 📊 HUL - Financial Analysis Dashboard.pbix
-- 📈 HUL - Financial Analysis & Valuation.xlsx
+- 📊 HUL Financial Analysis Dashboard.pbix
+- 📈 HUL Financial Analysis & Valuation.xlsx
 - 📷 Dashboard Screenshots
 - 📷 Excel Screenshots
 
@@ -284,8 +301,6 @@ Business Insights
 # 📚 Data Source
 
 The financial information used in this project has been sourced from the publicly available annual reports and financial statements of **Hindustan Unilever Limited (HUL)**.
-
-This project has been developed solely for educational and portfolio purposes.
 
 ---
 
