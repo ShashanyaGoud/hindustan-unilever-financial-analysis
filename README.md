@@ -292,9 +292,3 @@ This project has been developed solely for educational and portfolio purposes.
 # 👩‍💻 Author
 
 **Shashanya Goud**
-
-Aspiring Chartered Accountant | Financial Modelling | Power BI | Microsoft Excel | Business Intelligence
-
----
-
-⭐ If you found this project interesting, feel free to explore the dashboard and financial model.
